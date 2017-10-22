@@ -19,8 +19,8 @@ example3: head rsdl.o examples/example3.cpp
 example2: head rsdl.o examples/example2.cpp
 		g++ src/rsdl.o examples/example2.cpp $(CCFLAGS) -o example2.out
 
-example1: head rsdl.o examples/example1.cpp
-		g++ src/rsdl.o examples/example1.cpp $(CCFLAGS) -o example1.out
+spring96: head rsdl.o examples/spring96.cpp
+		g++ src/rsdl.o examples/spring96.cpp $(CCFLAGS) -o spring96.out
 
 text_input: rsdl.o examples/textInput.cpp
 		g++ src/rsdl.o examples/textInput.cpp $(CCFLAGS) -o textInput.out
